@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -22,53 +23,56 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="../ZyraHome.html">Home</a>
+              <a class="nav-link" href="../../ZyraHome.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="About.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Resume</a>
+                <a class="nav-link" href="Portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link" href="Pages/Contact.html">Contact <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../Zyra_Resume_7-7-20.pdf" target="_blank">Resume</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
     </nav>
 
     <div class="container">
-        <section class="mb-4">
-
-            <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
-            <!--Section description-->
-            <p class="text-center w-responsive mx-auto mb-5">Feel free to contact me with questions or if you would like to hire my services. You can find me at:</p>
-        
-            <div class="row">
-                <div class="col-4">
-                    <div class="row">
-                        <h3 class="text-center">LinkedIn</h3>
-                    </div>
-                    <div class="row">
-                        
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="../Images/LinkedIn Logo.png" alt="LinkedIn Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">LinkedIn</h5>
+                        <p class="card-text">My LinkedIn lists my work experience and education. It also lists some basic skills. I welcome messages and new connections.</p>
+                        <a href="linkedin.com/in/samuel-i-zyra/" class="btn btn-primary">Sam's LinkedIn</a>
                     </div>
                 </div>
-                
-        
+
+                <div class="card">
+                    <img class="card-img-top" src="../Images/GitHub Logo.png" alt="GitHub Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">GitHub</h5>
+                        <p class="card-text">My GitHub profile contains repositories created during my time at the Butler Coding Bootcamp and personal projects.</p>
+                        <a href="https://github.com/sizyra" class="btn btn-primary">Sam's GitHub</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card-img-top" src="../Images/Gmail Logo.png" alt="Gmail Logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">Click below to email me directly at my Gmail, sisaaczyra@gmail.com - I will respond within 48 hours.</p>
+                        <a href="mailto:sisaaczyra@gmail.com" class="btn btn-primary">Email Sam</a>
+                    </div>
+                </div>
             </div>
-        
-        </section>
-    
+        </div>
     </div>
-
-
+    
 </body>
 </html>
