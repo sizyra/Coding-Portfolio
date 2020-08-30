@@ -1,16 +1,11 @@
-The navbar on each page is fully functional and identical. It contains:
-- A home page (index.html)
-- An About page (about.html)
-- A Portfolio page (portfolio.html)
-- A Contact page (contact.html)
-- My up-to-date Resume which opens as a PDF in a new tab
+# Homework 8: Updated Portfolio
 
-Created a separate Home Page. I felt a professional portfolio might benefit from a bit of cushioning between my personal details and the arrival screen.
+# Desc:
+This portfolio had a landing page with links to the other pages, an About page detailing my interests and personal life, a Portfolio page listing a group project and two of my best independantly-created apps, a Contact page listing three ways to contact me (GitHub, LinkedIn, and Gmail), and a link to my latest resume as a PDF.
 
-Contact page is finished. Contains LinkedIn, GitHub, and Gmail links (gmail just starts writing an email to me).
+# Link: 
+https://sizyra.github.io/Coding-Portfolio/
 
-About page is finished. Contains hobbies, interests, and some personal details. 
+# Final Product Screenshot:
 
-Portfolio page is finished. Since I've created no other sites so far and this portfolio focuses on coding and wed design, I included fake links and preview images.
-
-All pages have a fixed footer and sub-rows, though no sub-columns.
+![Portfolio Screenshot](/Assets/Images/)
