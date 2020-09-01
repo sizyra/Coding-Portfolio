@@ -8,4 +8,4 @@ https://sizyra.github.io/Coding-Portfolio/
 
 # Final Product Screenshot:
 
-![Portfolio Screenshot](/Assets/Images/)
+![Portfolio Screenshot](/Assets/Images/Finished-Product.png)
